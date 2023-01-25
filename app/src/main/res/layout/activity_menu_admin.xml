@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuAdminActivity">
+
+    <ImageButton
+        android:id="@+id/riwytPemesanan"
+        android:layout_width="207dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="420dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="riwayat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/riwayat" />
+
+    <ImageButton
+        android:id="@+id/customer"
+        android:layout_width="207dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="196dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="customer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/customer" />
+
+    <ImageButton
+        android:id="@+id/keluar2"
+        android:layout_width="84dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="344dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="keluar2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/keluar" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="418dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/admin"
+        tools:layout_editor_absoluteX="-4dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigasi_user"
+    app:startDestination="@id/tambahFragment">
+    <fragment
+        android:id="@+id/tambahFragment"
+        android:name="com.example.pemesanantravel_nusamulya.pesanTravel.fragments.TambahFragment"
+        android:label="fragment_tambah"
+        tools:layout="@layout/fragment_tambah" >
+        <action
+            android:id="@+id/action_tambahFragment_to_menuUserActivity"
+            app:destination="@id/menuUserActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/menuUserActivity"
+        android:name="com.example.pemesanantravel_nusamulya.MenuUserActivity"
+        android:label="activity_menu_user"
+        tools:layout="@layout/activity_menu_user" />
+    <fragment
+        android:id="@+id/listFragment2"
+        android:name="com.example.pemesanantravel_nusamulya.pesanTravel.fragments.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment2_to_tambahFragment"
+            app:destination="@id/tambahFragment" />
+    </fragment>
+</navigation>

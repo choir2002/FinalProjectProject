@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pesanTravel.fragments.TambahFragment"
+    android:background="@color/beige">
+
+    <RelativeLayout
+        android:background="#A9AB36"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <FrameLayout
+            android:id="@+id/sv"
+            android:layout_width="400dp"
+            android:layout_height="550dp"
+            android:layout_centerInParent="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="3dp"
+                    app:strokeColor="@color/navy"
+                    app:strokeWidth="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="45dp"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/edt_nama"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:background="@drawable/reactbeige"
+                            android:hint="Nama"
+                            android:textColorHint="@color/navy"
+                            android:textStyle="bold"
+                            android:inputType="text"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/navy" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dp" />
+
+                        <EditText
+                            android:id="@+id/edt_email"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:background="@drawable/reactbeige"
+                            android:hint="Email"
+                            android:textColorHint="@color/navy"
+                            android:textStyle="bold"
+                            android:inputType="text"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/navy" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dp" />
+
+                        <EditText
+                            android:id="@+id/edt_asal"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:drawablePadding="5dp"
+                            android:background="@drawable/reactbeige"
+                            android:hint="Asal Sekolah"
+                            android:textColorHint="@color/navy"
+                            android:textStyle="bold"
+                            android:inputType="text"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/navy" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dp" />
+
+
+                        <EditText
+                            android:id="@+id/edt_tujuan"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:background="@drawable/reactbeige"
+                            android:hint="Alamat"
+                            android:textColorHint="@color/navy"
+                            android:textStyle="bold"
+                            android:inputType="text"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/navy" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dp" />
+                        <EditText
+                            android:id="@+id/edt_tgl"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:drawableStart="@drawable/ic_date"
+                            android:drawablePadding="5dp"
+                            android:background="@drawable/reactbeige"
+                            android:hint="Tanggal Keberangkatan"
+                            android:textColorHint="@color/navy"
+                            android:textStyle="bold"
+                            android:inputType="text"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/navy" />
+
+
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dp" />
+
+
+                        <EditText
+                            android:id="@+id/edt_jumlah"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:background="@drawable/reactbeige"
+                            android:hint="Agama"
+                            android:textColorHint="@color/navy"
+                            android:textStyle="bold"
+                            android:inputType="text"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/navy" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dp" />
+
+                        <Button
+                            android:id="@+id/pesan"
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="200dp"
+                            android:background="@drawable/reactnavy"
+                            android:text="Submit"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </RelativeLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kepala" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

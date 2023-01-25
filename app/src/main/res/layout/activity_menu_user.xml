@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9AB36"
+    tools:context=".MenuUserActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="24dp"
+                    android:text="SMA NEGRI 8 PEKANBARU"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="176dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="68dp"
+                    android:layout_marginEnd="17dp"
+                    android:background="#E5E5E5"
+                    android:contentDescription="list"
+                    app:srcCompat="@drawable/sekolah" />
+
+                <ImageView
+                    android:id="@+id/imgprofil"
+                    android:layout_width="94dp"
+                    android:layout_height="87dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="250dp"
+                    app:srcCompat="@drawable/profil" />
+
+                <ImageButton
+                    android:id="@+id/kontak"
+                    android:layout_width="78dp"
+                    android:layout_height="82dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="645dp"
+                    android:background="#A9AB36"
+                    android:contentDescription="kontak"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/kontaak" />
+
+                <ImageButton
+                    android:id="@+id/pesan"
+                    android:layout_width="128dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="350dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="#A9AB36"
+                    android:contentDescription="pesan"
+                    app:srcCompat="@drawable/daftaraa" />
+
+                <ImageButton
+                    android:id="@+id/riwayat"
+                    android:layout_width="88dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="426dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="#A9AB36"
+                    android:contentDescription="riwayat"
+                    app:srcCompat="@drawable/datadiri" />
+
+                <ImageButton
+                    android:id="@+id/lokasi"
+                    android:layout_width="87dp"
+                    android:layout_height="139dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="750dp"
+                    android:contentDescription="lokasi"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/loj" />
+
+                <ImageButton
+                    android:id="@+id/keluar"
+                    android:layout_width="53dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1160dp"
+                    android:layout_marginEnd="44dp"
+                    android:contentDescription="keluar"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/keluar" />
+
+
+                <ImageView
+                    android:id="@+id/visi"
+                    android:layout_width="78dp"
+                    android:layout_height="63dp"
+
+                    android:layout_marginStart="56dp"
+                    android:layout_marginTop="536dp"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/visismis" />
+
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="199dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="260dp"
+                    app:srcCompat="@drawable/ps" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="199dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="340dp"
+                    app:srcCompat="@drawable/pd" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="199dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="430dp"
+                    app:srcCompat="@drawable/dd" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="199dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="530dp"
+                    app:srcCompat="@drawable/vm" />
+
+                <ImageView
+                    android:id="@+id/kontakk"
+                    android:layout_width="199dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="655dp"
+                    app:srcCompat="@drawable/kt" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="199dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="780dp"
+                    app:srcCompat="@drawable/lk" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

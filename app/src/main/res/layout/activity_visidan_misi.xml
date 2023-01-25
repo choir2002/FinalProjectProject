@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VisidanMisi">
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="600dp"
+        android:layout_height="1290dp"
+        android:layout_marginTop="-235dp"
+        android:layout_marginLeft="-120dp"
+        app:srcCompat="@drawable/bendera" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#1C45D3"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VISI DAN MISI SMAN 8 PEKANBARU"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visi"
+        android:textColor="@color/black"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="190dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TERWUJUDNYA SMA NEGERI 8 PEKANBARU SEBAGAI SEKOLAH BERTARAF INTERNASIONAL YANG UNGGUL DI BIDANG AKADEMIS, DISIPLIN, AGAMIS DAN KOMPETITIF, DENGAN LINGKUNGAN SEKOLAH YANG BERSIH ,RINDANG, INDAH DAN ALAMI."
+        android:textColor="@color/black"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Misi"
+        android:textColor="@color/black"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="190dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Menyelenggarakan pembelajaran yang efektif dan inovatif yang berorientasi kepada pencapaian kompetensi berstandar nasional dan internasional dengan tetap mempertimbangkan potensi yang dimiliki oleh peserta didik."
+        android:textColor="@color/black"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Menumbuhkan semangat keunggulan, keteladanan dan penguasaan ilmu dan teknologi serta terus meningkatkan profesionalisme"
+        android:textColor="@color/black"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="165dp"
+        android:backgroundTint="#4436E5"
+        android:text="Kembali" />
+
+</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

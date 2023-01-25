@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Project_mobile_choir</string>
+    <string name="button_not_register">Tidak memiliki akun? <b>Daftar Sekarang</b></string>
+    <string name="after_register">Sudah memiliki akun? <b>Login Sekarang</b></string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!--    custom row-->
+    <string name="cth_nama">Azdra</string>
+    <string name="cth_email">Azdra@gmail.com</string>
+    <string name="cth_nohp">081378592167</string>
+    <!--    list mobil-->
+    <string name="jdl_dtl_mobil">Halaman Detail Mobil</string>
+    <string name="Nama">Jenis Mobil</string>
+    <string name="contoh_nama_mobil">Avanza</string>
+    <string name="plat_mobil">Plat Mobil</string>
+    <string name="jdl_utama_mobil">Daftar Mobil</string>
+    <string name="kategori">Kategori</string>
+    <string name="jumlah">Jumlah Kursi</string>
+    <!--    list supir-->
+    <string name="jdl_dtl_supir">Halaman Detail Supir</string>
+    <string name="nama_spr">Nama</string>
+    <string name="contoh_nama_supir">Ridho</string>
+    <string name="np_tlp">No Telp</string>
+    <string name="jdl_utama_supir">Daftar Supir</string>
+    <!--    maps-->
+    <string name="tampilan_normal">Tampilan Normal</string>
+    <string name="tampilan_hybrid">Tampilan Hybrid</string>
+    <string name="tampilan_satelit">Tampilan Satelit</string>
+    <string name="tampilan_terrain">Tampilan Terrain</string>
+    <!--    pemesanan travel-->
+    <string name="pemesanan_travel">Pemesanan Travel</string>
+    <string name="asal">Asal</string>
+    <string name="tujuan">Tujuan</string>
+    <string name="email">Email</string>
+    <string name="tgl">Tanggal Berangkat</string>
+    <string name="jumlah_penumpang">Jumlah</string>
+    <string name="hari">Hari</string>
+    <string name="update">Update</string>
+    <string name="hapus">Hapus</string>
+    <string name="halaman_list">Halaman List</string>
+    <string name="hello_blank_fragment">Hello Blank Fragment</string>
+    <string name="cth_asal">Pekanbaru</string>
+    <string name="cth_tujuan">Padang</string>
+    <string name="cth_jumlah">3 Dewasa</string>
+    <string name="cth_tgl">22/01/2022</string>
+</resources>

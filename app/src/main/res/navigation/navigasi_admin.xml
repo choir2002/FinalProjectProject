@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigasi_admin"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.pemesanantravel_nusamulya.pesanTravel.fragments.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_menuAdminActivity"
+            app:destination="@id/menuAdminActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/menuAdminActivity"
+        android:name="com.example.pemesanantravel_nusamulya.MenuAdminActivity"
+        android:label="activity_menu_admin"
+        tools:layout="@layout/activity_menu_admin" />
+</navigation>
